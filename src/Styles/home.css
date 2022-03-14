@@ -1,6 +1,6 @@
 .home-container {
 	background-color: #AD59591C;
-	margin-top: 5.5em;
+	margin-top: 4em;
 }
 .home {
 	padding: .7em;
@@ -23,13 +23,13 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-top: 10em;
+	margin: 10em 0 1em 0;
 }
 
 .home-links {
 	display: flex;
 	flex-direction: column;
-	justify-content: end;
+	justify-content: flex-end;
 }
 
 .home-links a {
@@ -39,7 +39,7 @@
 .name {
 	display: flex;
 	flex-direction: column;
-	justify-content: end;
+	justify-content: flex-end;
 	align-items: flex-end;
 }
 
