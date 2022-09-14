@@ -7,7 +7,6 @@ import { projectData } from "../Data/projectData";
 const Projects = () => {
 	return (
 		<div className="projects-container">
-			<div className="projects">
 				<h2 className="project-header">Fun Things I Made</h2>
 				{projectData.map((item) => {
 					return (
@@ -48,7 +47,6 @@ const Projects = () => {
 						</figure>
 					);
 				})}
-			</div>
 		</div>
 	);
 };

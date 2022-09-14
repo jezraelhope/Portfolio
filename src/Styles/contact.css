@@ -5,8 +5,8 @@
 
 .lets-talk {
 	font-size: 1.3em;
-	margin-bottom:.5em;
-	color: #8c8c8c;
+	margin-bottom: 1em;
+	color: #434044;
 }
 
 .contact-form {
@@ -26,7 +26,7 @@
 
 ::placeholder {
 	font-family: "Playfair Display", sans-serif;
-	color: #E88D8D;
+	color: #e45250;
 }
 
 .contact-content {
@@ -38,7 +38,7 @@
 }
 
 .submit {
-	background-color: #E88D8D;
+	background-color: #e45250;
 	border: none;
 	color: white;
 	font-family: "Playfair Display", sans-serif;

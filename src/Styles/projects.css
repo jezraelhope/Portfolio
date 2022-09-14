@@ -1,17 +1,16 @@
 .projects-container {
 	width: 100%;
 	background-color: #AD59591C;
-}
-.projects {
 	padding: 1em .8em;
-	color: #8C8C8C;
 	margin-top: 1em;
 	align-items: center;
 }
 
 .project-header {
+	margin-top: .7em;
 	font-size: 1.3em;
 	font-weight: 500;
+	color: #434044;
 }
 
 .project-item {
@@ -67,11 +66,13 @@
 
 .project-title {
 	font-weight: 500;
+	color: #434044;
 }
 
 .project-description {
 	font-size: .7em;
-	margin: 2em 0;
+	margin: 1em auto;
+	color: #434044;
 }
 
 .project-links {

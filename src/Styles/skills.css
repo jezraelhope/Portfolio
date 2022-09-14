@@ -6,7 +6,7 @@
 .skills-and-tools {
 	font-size: 1.3em;
 	margin-left: .5em;
-	color: #8C8C8C;
+	color: #434044;
 }
 
 .skills-container {
@@ -15,7 +15,7 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-items: center;
-	margin: 2em 2em 0 2em;
+	margin: 1.5em 2em 0 2em;
 }
 
 .skill {
@@ -30,13 +30,14 @@
 .skill img{
 	width: 35px;
 	height: 35px;
-	color: #8C8C8C;
+	color: #434044;
 }
 
 .skill p {
 	font-size: .6em;
+	font-weight: 600;
 	text-align: center;
-	color: #8C8C8C;
+	color: #434044;
 	margin: 1em 0;
 }
 
