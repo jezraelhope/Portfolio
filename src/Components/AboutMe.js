@@ -4,13 +4,13 @@ import "../Styles/aboutme.css";
 
 const AboutMe = () => {
 	return (
-		<p className="about-me">
-			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo
-			similique magnam aspernatur officiis at nam fugiat fuga aperiam amet
-			tenetur. Voluptates minus corporis adipisci at rem amet cupiditate
-			consequatur laudantium.
-		</p>
+		<div className="about-me">
+			<h2>Hi there, I'm Hope! I'm a self taught front-end developer.</h2>
+			<p>
+			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo similique magnam aspernatur officiis at nam fugiat fuga aperiam amet tenetur. Voluptates minus corporis adipisci at rem amet cupiditate consequatur laudantium.
+			</p>
+		</div>
 	);
 };
 
-export default AboutMe;
+export default AboutMe

@@ -22,9 +22,9 @@ const Home = () => {
 						<a href="#">Resume</a>
 					</nav>
 					<div className="name">
-						<div className="first">jezrael</div>
-						<div className="middle">hope</div>
-						<div className="last">magat</div>
+						<div className="first">Jezrael</div>
+						<div className="middle">Hope</div>
+						<div className="last">Magat</div>
 					</div>
 				</div>
 			</div>

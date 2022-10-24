@@ -9,7 +9,7 @@
 .banner {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
 	text-align: center;
 	margin: 0 auto;
 	padding: 1em;
@@ -25,7 +25,7 @@
 
 @media screen and (min-width:768px) {
 	.banner {
-		width: 60%;
+		width: 70%;
 	}
 	.banner a {
 		font-size: 2em;

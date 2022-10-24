@@ -13,19 +13,22 @@ const Contact = () => {
 			<div className="contact">
 				<div className="lets-talk">Let's Talk!</div>
 				<div className="contact-content">
-					<form action="#" className="contact-form">
+					<form action="https://formsubmit.co/e51707a287b52fbe7105c13830891293" method="POST" className="contact-form">
 						<input
 							type="text"
 							placeholder="Name"
+							name="name"
 							className="text-field"
 						/>
 						<input
-							type="text"
+							type="email"
+							name="email"
 							placeholder="Email Address"
 							className="text-field"
 						/>
 						<textarea
 							placeholder="Message"
+							name="message"
 							className="text-field"
 							id="text-area"
 						/>
@@ -38,7 +41,7 @@ const Contact = () => {
 					<div className="me-and-socials">
 						<img src={hope} alt="my_image" className="my-image" />
 						<div className="socials-container">
-							<a href="instagram.com/h0piii">
+							<a href="https://instagram.com/h0piii">
 								<img src={ig} alt="instagram" />
 							</a>
 							<a href="https://twitter.com/jezraelhope">
