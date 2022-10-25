@@ -9,7 +9,7 @@ import "../Styles/contact.css";
 
 const Contact = () => {
 	return (
-		<div className="contact-container">
+		<div className="contact-container" id="contact">
 			<div className="contact">
 				<div className="lets-talk">Let's Talk!</div>
 				<div className="contact-content">

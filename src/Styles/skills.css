@@ -1,12 +1,13 @@
 .skills-and-tools-container {
-	width: 80%;
-	margin: 1.5em 0;
+	width: 100%;
+	margin: 1.5em auto;
 }
 
 .skills-and-tools {
-	font-size: 1.3em;
+	font-size: 2.5vmax;
+	font-weight: 500;
 	margin-left: .5em;
-	color: #434044;
+	color: #e45250;
 }
 
 .skills-container {
@@ -15,7 +16,7 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-items: center;
-	margin: 1.5em 2em 0 2em;
+	margin: 1.5em auto;
 }
 
 .skill {
@@ -27,14 +28,18 @@
 	margin-top: 1em;
 }
 
-.skill img{
-	width: 35px;
-	height: 35px;
-	color: #434044;
+.skill-icon{
+	max-width: 30%;
+	height: auto;
+	/* color: #434044; */
+}
+
+.skill-icon:hover{
+	filter: invert(44%) sepia(24%) saturate(5642%) hue-rotate(332deg) brightness(95%) contrast(87%);
 }
 
 .skill p {
-	font-size: .6em;
+	font-size: 1.2vmax;
 	font-weight: 600;
 	text-align: center;
 	color: #434044;
@@ -43,12 +48,12 @@
 
 @media screen and (min-width:768px) {
 	.skills-and-tools-container {
-		margin: 5em auto;
-		width: 60%;
+		width: 70%;
+		margin: 3em auto;
 	}
 
 	.skills-and-tools {
-		font-size: 2.5em;
+		font-size: 3.5vmin;
 	}
 
 	.skill {
@@ -56,13 +61,6 @@
 	}
 
 	.skill img{
-		height: 5em;
-		width: 5em;
 		margin: .5em 0
-	}
-
-	.skill p {
-		font-size: 1.1em;
-		margin: 1em 0;
 	}
 }

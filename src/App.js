@@ -1,6 +1,6 @@
 import "./App.css";
 
-import Banner from "./Components/Banner";
+import Navbar from "./Components/Navbar";
 import Home from "./Components/Home";
 import AboutMe from "./Components/AboutMe";
 import Projects from "./Components/Projects";
@@ -11,7 +11,7 @@ import Footer from "./Components/Footer";
 function App() {
 	return (
 		<div className="App">
-			<Banner />
+			<Navbar />
 			<Home />
 			<AboutMe />
 			<Projects />

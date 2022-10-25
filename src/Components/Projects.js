@@ -6,7 +6,7 @@ import { projectData } from "../Data/projectData";
 
 const Projects = () => {
 	return (
-		<div className="projects-container">
+		<div className="projects-container" id="projects">
 			<div className="projects-content">
 			<h2 className="project-header">Fun Things I Made</h2>
 				{projectData.map((item) => {
@@ -32,19 +32,11 @@ const Projects = () => {
 									</a>
 								</div>
 							</figcaption>
-							<div className="demo">
-								<div className="image">
-									<img
-										src={item.mobileDemo[0]}
-										alt="mobile-demo"
-										className="mobile-demo"
-									/>
-								</div>
-								<div className="buttons">
-									<button>Desktop</button>
-									<button>Mobile</button>
-								</div>
-							</div>
+							<img
+								src={item.mobileDemo[0]}
+								alt="demo"
+								className="demo"
+							/>
 						</figure>
 					);
 				})}

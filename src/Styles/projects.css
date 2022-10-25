@@ -1,16 +1,18 @@
 .projects-container {
 	width: 100%;
 	background-color: #AD59591C;
+}
+
+.projects-content {
 	padding: 1em .8em;
-	margin-top: 1em;
+	margin: 1em auto;
 	align-items: center;
 }
 
 .project-header {
-	margin-top: .7em;
-	font-size: 1.3em;
+	font-size: 2.5vmax;
 	font-weight: 500;
-	color: #434044;
+	color: #e45250;
 }
 
 .project-item {
@@ -23,22 +25,11 @@
 .demo {
 	display: flex;
 	flex-direction: column;
-	margin: 2em auto;
+	height: 100%;
+	margin: 1em auto;
+	max-width: 80%;
 }
 
-.image {
-	display: flex;
-	align-items: center;
-	width: 70%;
-	margin: 0 auto;
-}
-
-.mobile-demo {
-	max-height: 100%;
-	margin: 0 auto;
-	width: 80%;
-	margin-bottom: 1em;
-}
 
 .buttons {
 	margin: 0 auto;
@@ -65,13 +56,15 @@
 }
 
 .project-title {
+	font-size: 2vmax;
 	font-weight: 500;
 	color: #434044;
+	margin: 1em 0;
 }
 
 .project-description {
-	font-size: .7em;
-	margin: 1em auto;
+	font-size: 1.5vmax;
+	margin-bottom: 1.5em;
 	color: #434044;
 }
 
@@ -92,11 +85,11 @@
 	
 	.projects-content {
 		width: 70%;
-		margin: 0 auto;
+		margin: 2em auto;
 	}
 
 	.project-header {
-		font-size: 2.5em;
+		font-size: 3.5vmin;
 	}
 
 	.project-item {
@@ -107,18 +100,16 @@
 
 	.description {
 		width: 50%;
-		margin-top: 2em;
 	}
 
 	.project-title {
-		font-size: 2em;
 		font-weight: 550;
-		line-height: 1em;
+		font-size: 2.5vmin;
 	}
 
 	.project-description {
-		font-size: 1.4em;
 		line-height: 1.5em;
+		font-size: 1.7vmin;
 	}
 
 	.project-links {
@@ -127,6 +118,7 @@
 
 	.demo {
 		width: 50%;
+		margin: auto;
 	}
 
 	.mobile-demo {
