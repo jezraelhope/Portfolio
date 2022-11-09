@@ -22,6 +22,11 @@
 	flex-wrap: wrap;
 }
 
+.project-description {
+	/* font-family: 'Comfortaa', cursive; */
+	letter-spacing: 1px;
+}
+
 .demo {
 	display: flex;
 	flex-direction: column;
