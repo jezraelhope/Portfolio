@@ -1,10 +1,20 @@
 import nzmDemoImage from "./assets/dpEiCOw.jpeg";
 import wsDashBoard from "./assets/yr8eW1K.jpeg";
-import ylpAnime from "./assets/TcYfqpB.jpeg"
+import ylpAnime from "./assets/TcYfqpB.jpeg";
+import kolorGame from "./assets/8ipjhjB.jpeg"
 
 export const projectData = [
 	{
 		id: 1,
+		name: "Kolor Game",
+		mobileDemo: [kolorGame],
+		liveLink: "https://jezraelhope.github.io/colorGame/",
+		githubLink: "https://github.com/jezraelhope/colorGame",
+		description:
+			"Ready to guess which color matches the given RGB values? This game tests your RGB knowledge."
+	},
+	{
+		id: 2,
 		name: "NZM",
 		mobileDemo: [nzmDemoImage],
 		liveLink: "http://nzm.netlify.app",
@@ -25,7 +35,7 @@ export const projectData = [
 			`
 	},
 	{
-		id: 3,
+		id: 4,
 		name: "Anime - Yelp Clone",
 		mobileDemo: [ylpAnime],
 		liveLink: "http://ylp-anime.herokuapp.com/",
