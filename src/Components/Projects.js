@@ -17,6 +17,13 @@ const Projects = () => {
 								<p className="project-description">
 									{item.description}
 								</p>
+								<div>
+									{item.techUsed?.map(tech => {
+										return(
+											<img src={tech} className="tech-used-icon"/>
+										)
+									})}
+								</div>
 								<div className="project-links">
 									<a
 										href={item.liveLink}

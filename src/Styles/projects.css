@@ -86,6 +86,12 @@
 	font-weight: 500;
 }
 
+.tech-used-icon {
+	max-width: 25px;
+	margin: 0 .5em .5em 0;
+	filter: invert(70%) sepia(1%) saturate(0%) hue-rotate(145deg) brightness(79%) contrast(91%);
+}
+
 @media screen and (min-width:768px) {
 	
 	.projects-content {
