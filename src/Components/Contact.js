@@ -46,17 +46,6 @@ const Contact = () => {
 					</form>
 					<div className="me-and-socials">
 						<img src={hope} alt="my_image" className="my-image" />
-						<div className="socials-container">
-							<a href="https://instagram.com/h0piii">
-								<img src={ig} alt="instagram" />
-							</a>
-							<a href="https://twitter.com/jezraelhope">
-								<img src={twitter} alt="twitter" />
-							</a>
-							<a href="https://twitter.com/jezraelhope">
-								<img src={pinterest} alt="pinterest" />
-							</a>
-						</div>
 					</div>
 				</div>
 			</div>
