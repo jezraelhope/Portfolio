@@ -14,29 +14,35 @@ const Contact = () => {
 				<div className="lets-talk">Let's Talk!</div>
 				<div className="contact-content">
 					<form action="https://formsubmit.co/e51707a287b52fbe7105c13830891293" method="POST" className="contact-form">
-						<input
-							type="text"
-							placeholder="Name"
-							name="name"
-							className="text-field"
-						/>
-						<input
-							type="email"
-							name="email"
-							placeholder="Email Address"
-							className="text-field"
-						/>
-						<textarea
-							placeholder="Message"
-							name="message"
-							className="text-field"
-							id="text-area"
-						/>
-						<input
+						<div className="form-group">
+							<label>Name</label>
+							<input
+								type="text"
+								name="name"
+								className="text-field"
+							/>
+						</div>
+						<div className="form-group">
+							<label>Email</label>
+							<input
+								type="email"
+								name="name"
+								className="text-field"
+							/>
+						</div>
+						<div className="form-group">
+							<label>Message</label>
+							<textarea
+								name="message"
+								className="text-field"
+								id="text-area"
+							/>
+						</div>		
+						<button
 							type="submit"
 							value="Send Email"
 							className="submit"
-						/>
+						>Submit</button>
 					</form>
 					<div className="me-and-socials">
 						<img src={hope} alt="my_image" className="my-image" />
