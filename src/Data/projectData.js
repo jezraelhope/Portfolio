@@ -52,7 +52,7 @@ export const projectData = [
 		name: "Anime - Yelp Clone",
 		mobileDemo: [ylpAnime],
 		techUsed: [ejs, nodejs, express, mongodb, mongoose, bootstrap],
-		liveLink: "http://ylp-anime.herokuapp.com/",
+		liveLink: "https://yanime.onrender.com/",
 		githubLink: "https://github.com/jezraelhope/yelp-anime",
 		description:
 			`A website created to display a user's favorite anime with the ability to filter according to genre, add, edit, and delete anime if the user is authenticated and also features a show page for anime details including the ability to post reviews, and upvote or downvote, again, if the user is authenticated.
