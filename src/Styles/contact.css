@@ -16,8 +16,13 @@
 	width: 50%;
 }
 
+.form-group label {
+	font-size: .8em;
+	/* font-family: 'Comfortaa', serif; */
+}
+
 .text-field {
-	margin-bottom: .3em;
+	margin: .3em 0;
 	padding: 1em .5em;
 	border: none;
 }
@@ -71,6 +76,7 @@
 	width: 20px;
 	margin: 0 .5em;
 }
+
 
 @media screen and (min-width:768px) {
 	.contact-container {
