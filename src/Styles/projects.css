@@ -87,7 +87,7 @@
 }
 
 .tech-used-icon {
-	max-width: 25px;
+	max-width: 20px;
 	margin: 0 .5em .5em 0;
 	filter: invert(70%) sepia(1%) saturate(0%) hue-rotate(145deg) brightness(79%) contrast(91%);
 }
@@ -145,6 +145,10 @@
 		font-size: 1.2em;
 		width: 50%;
 		margin: 0 auto;
+	}
+
+	.tech-used-icon {
+		width: 25px
 	}
 
 }
