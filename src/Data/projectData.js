@@ -45,7 +45,8 @@ export const projectData = [
 		githubLink: "https://github.com/jezraelhope/bambya-dashboard",
 		description:
 			`The Wheel Strategy dashboard is created to display trades made using the options wheel strategy, aiming to easily show profits accrued monthly with the ability to add, edit, close, and delete trades.
-			`
+			`,
+		disclaimer: "*please allow a few seconds for the webpage to load"
 	},
 	{
 		id: 4,
@@ -56,6 +57,7 @@ export const projectData = [
 		githubLink: "https://github.com/jezraelhope/yelp-anime",
 		description:
 			`A website created to display a user's favorite anime with the ability to filter according to genre, add, edit, and delete anime if the user is authenticated and also features a show page for anime details including the ability to post reviews, and upvote or downvote, again, if the user is authenticated.
-			`
+			`,
+		disclaimer: "*please allow a few seconds for the webpage to load"
 	}
 ];
