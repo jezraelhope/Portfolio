@@ -20,7 +20,7 @@ const Projects = () => {
 								<div>
 									{item.techUsed?.map(tech => {
 										return(
-											<img src={tech} className="tech-used-icon"/>
+											<img src={tech} alt={tech} className="tech-used-icon"/>
 										)
 									})}
 								</div>
@@ -37,6 +37,9 @@ const Projects = () => {
 									>
 										View Github Repository
 									</a>
+								</div>
+								<div className="disclaimer">
+									<p>{item?.disclaimer}</p>
 								</div>
 							</figcaption>
 							<img
