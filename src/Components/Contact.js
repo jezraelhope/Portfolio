@@ -1,9 +1,6 @@
 import React from "react";
 
 import hope from "../Data/assets/hope-square.jpg";
-import ig from "../Data/assets/ig.svg";
-import twitter from "../Data/assets/twitter.svg";
-import pinterest from "../Data/assets/pinterest.svg";
 
 import "../Styles/contact.css";
 
@@ -15,7 +12,7 @@ const Contact = () => {
 				<div className="contact-content">
 					<form action="https://formsubmit.co/e51707a287b52fbe7105c13830891293" method="POST" className="contact-form">
 						<div className="form-group">
-							<label>Name</label>
+							<label for="name">Name</label>
 							<input
 								type="text"
 								name="name"
@@ -23,15 +20,15 @@ const Contact = () => {
 							/>
 						</div>
 						<div className="form-group">
-							<label>Email</label>
+							<label for="email">Email</label>
 							<input
 								type="email"
-								name="name"
+								name="email"
 								className="text-field"
 							/>
 						</div>
 						<div className="form-group">
-							<label>Message</label>
+							<label for="message">Message</label>
 							<textarea
 								name="message"
 								className="text-field"
@@ -42,6 +39,7 @@ const Contact = () => {
 							type="submit"
 							value="Send Email"
 							className="submit"
+							aria-label="submit form button"
 						>Submit</button>
 					</form>
 					<div className="me-and-socials">
