@@ -30,7 +30,7 @@ export const projectData = [
     name: "Wheel Strategy Dashboard",
     mobileDemo: [wsDashBoard],
     techUsed: [css3, react, javaScript, nodejs, express, mongoose, mongodb],
-    liveLink: "https://wheel-strategy-dashboard.onrender.com/",
+    liveLink: "https://jezraelhope.github.io/wsdb/",
     githubLink: "https://github.com/jezraelhope/bambya-dashboard",
     description: `The Wheel Strategy dashboard is created to display trades made using the options wheel strategy, aiming to easily show profits accrued monthly with the ability to add, edit, close, and delete trades.
 			`,
