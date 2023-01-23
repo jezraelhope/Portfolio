@@ -21,7 +21,12 @@ const Projects = () => {
                   })}
                 </div>
                 <div className="project-links">
-                  <a href={item.liveLink} className="live-link">
+                  <a
+                    href={item.liveLink}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="live-link"
+                  >
                     View It Here
                   </a>
                   <a href={item.githubLink} className="github-link">
