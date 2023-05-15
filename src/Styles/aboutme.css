@@ -1,31 +1,32 @@
 .about-me {
-	color:#e45250;
-	text-align: center;
-	width: 70%;
-	margin: 4em auto;
-	line-height: 1.5;
+  color: #e45250;
+  text-align: center;
+  width: 70%;
+  margin: 5em auto;
+  line-height: 1.5;
 }
 
 .about-me h2 {
-	margin-bottom: 1em;
-	font-size: 2vmax;
+  margin-bottom: 1em;
+  font-size: 2vmax;
 }
 
 .about-me-p {
-	font-size: 1.5vmax;
-	color: #434044;
-	font-family: "Comfortaa", serif;
+  font-size: 1.5vmax;
+  color: #434044;
+  font-family: "Comfortaa", serif;
 }
 
-@media screen and (min-width:768px) {
-	.about-me {
-		margin: 5em auto;
-	}
-	.about-me h2 {
-		font-size: 2.3em;
-	}
+@media screen and (min-width: 768px) {
+  .about-me {
+    margin: 10em auto;
+  }
+  .about-me h2 {
+    font-size: 2.3em;
+  }
 
-	.about-me-p, p {
-		font-size: 1.3em;
-	}
+  .about-me-p,
+  p {
+    font-size: 1.3em;
+  }
 }

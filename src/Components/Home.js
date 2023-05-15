@@ -10,11 +10,18 @@ const Home = () => {
 
         <div className="bottom">
           <nav className="home-links">
-            <a href="https://github.com/jezraelhope">Github</a>
+            <a target="_blank" href="https://github.com/jezraelhope">
+              Github
+            </a>
 
-            <a href="https://www.linkedin.com/in/jezraelhope/">LinkedIn</a>
+            <a target="_blank" href="https://www.linkedin.com/in/jezraelhope/">
+              LinkedIn
+            </a>
 
-            <a href="https://www.canva.com/design/DAFRYPdhgCA/kJeVaNI7uypa643u7rt4Gw/view?utm_content=DAFRYPdhgCA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
+            <a
+              target="_blank"
+              href="https://drive.google.com/file/d/1_40QDwPgzkPCrxDupQJodvfkgHlC43yK/view?usp=sharing"
+            >
               Resume
             </a>
           </nav>
