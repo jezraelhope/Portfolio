@@ -17,13 +17,6 @@ const Home = () => {
             <a target="_blank" href="https://www.linkedin.com/in/jezraelhope/">
               LinkedIn
             </a>
-
-            <a
-              target="_blank"
-              href="https://drive.google.com/file/d/1_40QDwPgzkPCrxDupQJodvfkgHlC43yK/view?usp=sharing"
-            >
-              Resume
-            </a>
           </nav>
           <div className="name">
             <div className="first">Jezrael</div>
