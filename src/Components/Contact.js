@@ -8,6 +8,10 @@ const Contact = () => {
   return (
     <div className="contact-container" id="contact">
       <div className="contact">
+        <p className="engagement">
+          Want to collaborate, have a feedback on my portfolio, or just want to
+          chat?
+        </p>
         <div className="lets-talk">Let's Talk!</div>
         <div className="contact-content">
           <form
