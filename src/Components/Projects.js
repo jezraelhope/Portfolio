@@ -17,7 +17,14 @@ const Projects = () => {
                 <p className="project-description">{item.description}</p>
                 <div>
                   {item.techUsed?.map((tech) => {
-                    return <img src={tech} alt="" className="tech-used-icon" />;
+                    return (
+                      <img
+                        src={tech}
+                        alt=""
+                        className="tech-used-icon"
+                        key={item.id}
+                      />
+                    );
                   })}
                 </div>
                 <div className="project-links">

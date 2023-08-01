@@ -1,67 +1,70 @@
 .skills-and-tools-container {
-	width: 100%;
-	margin: 1.5em auto;
+  width: 100%;
+  margin: 1.5em auto;
 }
 
 .skills-and-tools {
-	font-size: 2.5vmax;
-	font-weight: 500;
-	margin-left: .5em;
-	color: #e45250;
+  font-size: 2.5vmax;
+  font-weight: 500;
+  margin-left: 0.5em;
+  color: #e45250;
 }
 
 .skills-container {
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: center;
-	margin: 1.5em auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1.5em auto;
 }
 
 .skill {
-	display: flex;
-    width: 20%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-	margin-top: 1em;
+  display: flex;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1em;
 }
 
-.skill-icon{
-	max-width: 30%;
-	height: auto;
-	/* color: #434044; */
+.skill-icon {
+  max-width: 30%;
+  height: auto;
+  filter: invert(70%) sepia(1%) saturate(0%) hue-rotate(145deg) brightness(79%)
+    contrast(91%);
+  /* color: #434044; */
 }
 
-.skill-icon:hover{
-	filter: invert(44%) sepia(24%) saturate(5642%) hue-rotate(332deg) brightness(95%) contrast(87%);
+.skill-icon:hover {
+  filter: invert(44%) sepia(24%) saturate(5642%) hue-rotate(332deg)
+    brightness(95%) contrast(87%);
 }
 
 .skill p {
-	font-family: 'Comfortaa', serif;
-	font-size: 1.2vmax;
-	font-weight: 600;
-	text-align: center;
-	color: #434044;
-	margin: 1em 0;
+  font-family: "Comfortaa", serif;
+  font-size: 1.2vmax;
+  font-weight: 600;
+  text-align: center;
+  color: #434044;
+  margin: 1em 0;
 }
 
-@media screen and (min-width:768px) {
-	.skills-and-tools-container {
-		width: 70%;
-		margin: 3em auto;
-	}
+@media screen and (min-width: 768px) {
+  .skills-and-tools-container {
+    width: 70%;
+    margin: 3em auto;
+  }
 
-	.skills-and-tools {
-		font-size: 3.5vmin;
-	}
+  .skills-and-tools {
+    font-size: 3.5vmin;
+  }
 
-	.skill {
-		padding: 2em 0;
-	}
+  .skill {
+    padding: 2em 0;
+  }
 
-	.skill img{
-		margin: .5em 0
-	}
+  .skill img {
+    margin: 0.5em 0;
+  }
 }
