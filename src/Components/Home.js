@@ -1,4 +1,5 @@
 import React from "react";
+import Typed from "react-typed";
 
 import "../Styles/home.css";
 
@@ -6,8 +7,21 @@ const Home = () => {
   return (
     <div className="home-container" id="home">
       <div className="home">
-        <h1 className="greetings">Hello!</h1>
-
+        <Typed
+          className="greetings"
+          strings={[
+            "Hello!",
+            "Kamusta!",
+            "Namaskar!",
+            "こんにちは!",
+            "'sup!",
+            "Suilad!",
+            "Valar Morghulis!",
+          ]}
+          typeSpeed={150}
+          backSpeed={100}
+          loop
+        />
         <div className="bottom">
           <nav className="home-links">
             <a target="_blank" href="https://github.com/jezraelhope">
