@@ -3,7 +3,7 @@ import wsDashBoard from "./assets/yr8eW1K.jpeg";
 import ylpAnime from "./assets/TcYfqpB.jpeg";
 import bb21Demo from "./assets/bb21.jpg";
 import kolorGame from "./assets/8ipjhjB.jpeg";
-
+import apkWedding from "./assets/adipkwedding.jpeg";
 import html from "./assets/html.svg";
 import css3 from "./assets/css3.svg";
 import javaScript from "./assets/javascript.svg";
@@ -20,6 +20,16 @@ import canvas from "./assets/canvas.svg";
 export const projectData = [
   {
     id: 1,
+    name: "Wedding Website",
+    mobileDemo: [apkWedding],
+    techUsed: [react, javaScript, tailwind, canvas],
+    liveLink: "https://adiprateemawedding.netlify.app/",
+    githubLink: "https://github.com/jezraelhope/adipkwedding",
+    description:
+      "I had the opportunity to create a website for a close friend's wedding. The website served as a valuable resource, providing guests with essential information about the event, including venue details, rituals, accommodations, and the gift registry. Built using React, the website played a key role in streamlining communication and enhancing the overall experience for attendees before and during the wedding.",
+  },
+  {
+    id: 2,
     name: "BooleBots21",
     mobileDemo: [bb21Demo],
     techUsed: [react, javaScript, tailwind, canvas],
@@ -29,7 +39,7 @@ export const projectData = [
       "Boole Bots is a game was created to aid in understanding boolean logic with bots battling inside an 8x8 arena. Each bot is assigned a boolean value and operation. When the bots collide, their values and operation are compared and whoever results to 1 wins. This project is made in collaboration with Jacob Benson and Juan Guzman through Chingu Voyages.",
   },
   {
-    id: 2,
+    id: 3,
     name: "Wheel Strategy Dashboard",
     mobileDemo: [wsDashBoard],
     techUsed: [css3, react, javaScript, nodejs, express, mongoose, mongodb],
@@ -40,7 +50,7 @@ export const projectData = [
     disclaimer: "*please allow a few seconds for the webpage to load",
   },
   {
-    id: 3,
+    id: 4,
     name: "Anime - Yelp Clone",
     mobileDemo: [ylpAnime],
     techUsed: [ejs, nodejs, express, mongodb, mongoose, bootstrap],
@@ -51,7 +61,7 @@ export const projectData = [
     disclaimer: "*please allow a few seconds for the webpage to load",
   },
   {
-    id: 4,
+    id: 5,
     name: "NZM",
     mobileDemo: [nzmDemoImage],
     techUsed: [react, css3, javaScript],
